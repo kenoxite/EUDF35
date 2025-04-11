@@ -263,7 +263,7 @@ class U_I_EUDF35_HeliPilotCoveralls_Woodland: U_I_CombatUniform_EUDF35_Woodland
         uniformModel="-";
         uniformClass="I_EUDF35_Rifleman_HeliPilotCoveralls_UnifBase";
         containerClass="Supply40";
-        mass=40;
+        mass=60;
     };
 };
 class U_I_EUDF35_HeliPilotCoveralls_Arid: U_I_EUDF35_HeliPilotCoveralls_Woodland
@@ -282,7 +282,7 @@ class U_I_EUDF35_HeliPilotCoveralls_Arid: U_I_EUDF35_HeliPilotCoveralls_Woodland
         uniformModel="-";
         uniformClass="I_EUDF35_Rifleman_HeliPilotCoveralls_Arid_UnifBase";
         containerClass="Supply40";
-        mass=40;
+        mass=60;
     };
 };
 
@@ -382,8 +382,8 @@ class U_I_ParadeUniform_01_EUDF: U_I_ParadeUniform_01_AAF_F
     {
         uniformModel="-";
         uniformClass="I_EUDF_ParadeUniform_01_Base_F";
-        containerClass="Supply40";
-        mass=40;
+        containerClass="Supply20";
+        mass=30;
     };
 };
 class U_I_ParadeUniform_01_EUDF_decorated: U_I_ParadeUniform_01_EUDF
@@ -396,8 +396,8 @@ class U_I_ParadeUniform_01_EUDF_decorated: U_I_ParadeUniform_01_EUDF
     {
         uniformModel="-";
         uniformClass="I_EUDF_ParadeUniform_01_decorated_Base_F";
-        containerClass="Supply40";
-        mass=40;
+        containerClass="Supply20";
+        mass=30;
     };
 };
 
@@ -415,7 +415,7 @@ class U_I_Wetsuit_EUDF35: U_I_Wetsuit
     {
         uniformModel="-";
         uniformClass="I_EUDF35_Diver_Base_F";
-        containerClass="Supply40";
+        containerClass = "Supply80";
         mass=60;
         uniformType = "Neopren";
     };
