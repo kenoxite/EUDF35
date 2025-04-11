@@ -164,7 +164,7 @@
             item_xx(U_I_EUDF35_GhillieSuit_Woodland_1,15);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Woodland,15);
             item_xx(U_I_FullGhillie_lsh,15);
-            item_xx(U_I_Wetsuit,15);
+            item_xx(U_I_Wetsuit_EUDF35,15);
         };
     };
     class IND_EUDF35_F_SupportBox : Box_NATO_Support_F {
@@ -388,6 +388,6 @@
             item_xx(U_I_EUDF35_GhillieSuit_Woodland_1,10);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Woodland,10);
             item_xx(U_I_FullGhillie_lsh,10);
-            item_xx(U_I_Wetsuit,10);
+            item_xx(U_I_Wetsuit_EUDF35,10);
         };
     };

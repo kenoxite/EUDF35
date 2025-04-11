@@ -164,7 +164,7 @@
             item_xx(U_I_EUDF35_Gorka_Arctic,15);
             item_xx(U_I_EUDF35_HeliPilotCoveralls_Woodland,15);
             item_xx(U_I_pilotCoveralls,15);
-            item_xx(U_I_Wetsuit,15);
+            item_xx(U_I_Wetsuit_EUDF35,15);
         };
     };
     class IND_EUDF35_A_F_SupportBox : Box_NATO_Support_F {
@@ -382,6 +382,6 @@
             item_xx(U_I_EUDF35_Gorka_Arctic,10);
             item_xx(U_I_EUDF35_HeliPilotCoveralls_Woodland,10);
             item_xx(U_I_pilotCoveralls,10);
-            item_xx(U_I_Wetsuit,10);
+            item_xx(U_I_Wetsuit_EUDF35,10);
         };
     };
