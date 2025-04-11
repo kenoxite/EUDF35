@@ -373,7 +373,7 @@ class U_I_ParadeUniform_01_AAF_F;
 class U_I_ParadeUniform_01_EUDF: U_I_ParadeUniform_01_AAF_F
 {
     author="kenoxite";
-    scope=1;
+    scope=2;
     displayName="Parade Uniform [EUDF]";
     picture="\EUDF35_core_F\data\previews\items\icon_U_I_ParadeUniform_01_EUDF.paa";
     model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -389,7 +389,7 @@ class U_I_ParadeUniform_01_EUDF: U_I_ParadeUniform_01_AAF_F
 class U_I_ParadeUniform_01_EUDF_decorated: U_I_ParadeUniform_01_EUDF
 {
     author="kenoxite";
-    scope=1;
+    scope=2;
     displayName="Parade Uniform (Decorated) [EUDF]";
     picture="\EUDF35_core_F\data\previews\items\icon_U_I_ParadeUniform_01_EUDF_decorated.paa";
     class ItemInfo: UniformItem
@@ -406,7 +406,7 @@ class U_I_Wetsuit;
 class U_I_Wetsuit_EUDF35: U_I_Wetsuit
 {
     author="kenoxite";
-    scope=1;
+    scope=2;
     displayName="Wetsuit [EUDF]";
     picture = "\A3\characters_f_beta\data\ui\icon_U_IR_Wetsuit_CA.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
