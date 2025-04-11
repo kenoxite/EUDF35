@@ -1,4 +1,4 @@
-#define VERSION "1.2"
+#define VERSION "1.2.1"
 
 #include "basicDefines.hpp"
 
@@ -769,6 +769,8 @@ class CfgPatches
             "Item_I_ParadeUniform_01_EUDF",
             "Item_I_ParadeUniform_01_EUDF_decorated",
 
+            "Item_I_Wetsuit_EUDF35",
+
             "Vest_V_CarrierRigKBT_01_vest_EUDF35_Woodland",
             "Vest_V_CarrierRigKBT_01_EUDF35_Woodland",
             "Vest_V_CarrierRigKBT_01_heavy_EUDF35_Woodland",
@@ -953,6 +955,8 @@ class CfgPatches
             "U_I_CombatUniform_EUDF35_Arid_Shortsleeve_mp",
             "U_I_ParadeUniform_01_EUDF",
             "U_I_ParadeUniform_01_EUDF_decorated",
+
+            "U_I_Wetsuit_EUDF35",
 
             "H_HelmetB_camo_EUDF35_woodland",
             "H_HelmetCrew_EUDF35_woodland",
