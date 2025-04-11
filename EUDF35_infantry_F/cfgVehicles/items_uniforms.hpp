@@ -307,3 +307,20 @@ class Item_I_ParadeUniform_01_EUDF_decorated: Item_I_CombatUniform_EUDF35_Woodla
         };
     };
 };
+
+// Wetsuit [EUDF]
+class Item_I_Wetsuit_EUDF35: Item_I_CombatUniform_EUDF35_Woodland
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    displayName="Wetsuit [EUDF]";
+    class TransportItems
+    {
+        class Item_Uniform_X
+        {
+            name="U_I_Wetsuit_EUDF35";
+            count=1;
+        };
+    };
+};

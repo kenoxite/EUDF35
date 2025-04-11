@@ -8,7 +8,6 @@ class I_EUDF35_Diver_F: I_EUDF35_Diver_Base_F
     editorPreview = "\EUDF35_core_F\data\previews\I_EUDF35_Diver_F.jpg";
     backpack = "B_Assault_Diver";
     model="\A3\characters_F\Common\diver_slotable";
-    modelSides[]={2,3};
     role="SpecialOperative";
     camouflage=2;
 };

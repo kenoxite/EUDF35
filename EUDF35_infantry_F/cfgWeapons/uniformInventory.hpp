@@ -400,3 +400,23 @@ class U_I_ParadeUniform_01_EUDF_decorated: U_I_ParadeUniform_01_EUDF
         mass=40;
     };
 };
+
+// Wetsuit
+class U_I_Wetsuit;
+class U_I_Wetsuit_EUDF35: U_I_Wetsuit
+{
+    author="kenoxite";
+    scope=1;
+    displayName="Wetsuit [EUDF]";
+    picture = "\A3\characters_f_beta\data\ui\icon_U_IR_Wetsuit_CA.paa";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+    modelSides[]={0,1,2,3};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="I_EUDF35_Diver_Base_F";
+        containerClass="Supply40";
+        mass=60;
+        uniformType = "Neopren";
+    };
+};

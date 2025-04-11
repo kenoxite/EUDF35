@@ -61,7 +61,7 @@ class I_EUDF35_Rifleman_Base_F: I_Soldier_base_F
     model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
     modelSides[]={0,1,2,3};
     nakedUniform="U_BasicBody";
-    uniformClass="U_I_CombatUniform_EUDF35_w";
+    uniformClass="U_I_CombatUniform_EUDF35_Woodland";
 
     vehicleClass="Men";
     Weapons[]=
@@ -892,8 +892,25 @@ class I_Soldier_diver_base_F;
 class I_EUDF35_Diver_Base_F: I_Soldier_diver_base_F
 {
     author = "kenoxite";
-    scope = 0;
+    scope = 1;
+    scopeCurator = 1;
     faction="IND_EUDF35_F";
+
+    model = "\A3\characters_F\Common\diver_slotable";
+    modelSides[]={0,1,2,3};
+
+    uniformClass = "U_I_Wetsuit_EUDF35";
+    hiddenSelections[] = {"Camo1","Camo2","insignia"};
+    hiddenSelectionsTextures[] = {
+        "\A3\Characters_F\Common\Data\diver_suit_rus_co.paa",
+        "\A3\Characters_F\Common\Data\diver_equip_rus_co.paa"
+    };
+    hiddenUnderwaterSelections[] = {"hide"};
+    hiddenUnderwaterSelectionsTextures[] = {
+        "\A3\characters_f\common\data\diver_equip_nato_co.paa",
+        "\A3\characters_f\common\data\diver_equip_nato_co.paa",
+        "\A3\characters_f\data\visors_ca.paa"
+    };
 
     identityTypes[] = {
         "Head_NATO",
@@ -954,13 +971,13 @@ class I_EUDF35_Diver_Base_F: I_Soldier_diver_base_F
 class I_EUDF35_A_Diver_Base_F: I_EUDF35_Diver_Base_F
 {
     author = "kenoxite";
-    scope = 0;
+    scope = 1;
     faction="IND_EUDF35_A_F";
 };
 class I_EUDF35_D_Diver_Base_F: I_EUDF35_Diver_Base_F
 {
     author = "kenoxite";
-    scope = 0;
+    scope = 1;
     faction="IND_EUDF35_D_F";
 };
 
