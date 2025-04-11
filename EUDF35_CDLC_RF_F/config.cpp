@@ -210,6 +210,9 @@ class CfgGroups
     {
         // name="$STR_A3_CfgGroups_West0";
         // side=1;
+        #include "blufor\woodland\groups.hpp"
+        #include "blufor\arctic\groups.hpp"
+        #include "blufor\arid\groups.hpp"
     };
     class Indep {
         // name="$STR_A3_CfgGroups_Indep0";
@@ -222,5 +225,8 @@ class CfgGroups
     class East {
         // name="$STR_A3_CfgGroups_East0";
         // side=0;
+        #include "opfor\woodland\groups.hpp"
+        #include "opfor\arctic\groups.hpp"
+        #include "opfor\arid\groups.hpp"
     };
 };
