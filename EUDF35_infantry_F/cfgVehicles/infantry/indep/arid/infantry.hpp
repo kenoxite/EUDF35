@@ -397,7 +397,7 @@ class I_EUDF35_D_Pilot_F : I_EUDF35_D_Crew_F {
 
     PILOT();
     
-    uniformClass = "U_I_pilotCoveralls";
+    uniformClass = "U_I_EUDF35_pilotCoveralls";
 
     linkedItems[] = {
         "H_PilotHelmetFighter_B",
@@ -1841,6 +1841,7 @@ class I_EUDF35_D_Fighter_Pilot_F : I_EUDF35_D_Pilot_F {
     scopeCurator = 2;
     displayName="$STR_A3_I_Fighter_Pilot_name";
     editorPreview = "\eudf35_core_f\data\previews\I_EUDF35_D_Fighter_Pilot_F.jpg";
+    DLC = "Jets";
 
     backpack = "";
 

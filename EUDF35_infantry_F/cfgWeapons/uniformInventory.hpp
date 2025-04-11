@@ -286,6 +286,25 @@ class U_I_EUDF35_HeliPilotCoveralls_Arid: U_I_EUDF35_HeliPilotCoveralls_Woodland
     };
 };
 
+// Pilot Coveralls
+class U_I_EUDF35_pilotCoveralls: U_I_CombatUniform_EUDF35_Woodland
+{
+    author="kenoxite";
+    scope=2;
+    displayName="Pilot Coveralls [EUDF]";
+    picture = "\A3\characters_f_beta\data\ui\icon_U_IR_PilotCoveralls_ca.paa";
+    model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\pilot_suit_rus_co.paa"};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="I_EUDF35_PilotCoveralls_UnifBase";
+        containerClass="Supply60";
+        mass=80;
+    };
+};
+
 // Recon Fatigues (Gorka)
 class U_I_EUDF35_Gorka_Woodland: U_I_CombatUniform_EUDF35_Woodland
 {
@@ -368,6 +387,27 @@ class U_I_EUDF35_GhillieSuit_Woodland_1: U_I_CombatUniform_EUDF35_Woodland
     };
 };
 
+// Full Ghillie (Lush)
+class U_I_EUDF35_FullGhillieSuit_Woodland: U_I_CombatUniform_EUDF35_Woodland
+{
+    author="kenoxite";
+    scope=2;
+    displayName="Full Ghillie (Lush) [EUDF]";
+    picture = "\A3\characters_f_mark\data\ui\icon_U_I_FullGhillie_lsh_ca.paa";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+    hiddenSelectionsTextures[]=
+    {
+        "\A3\characters_f\common\data\ghillie_woodland_co.paa"
+    };
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="I_EUDF35_Sniper_full_woodland_UnifBase";
+        containerClass="Supply60";
+        mass=80;
+    };
+};
+
 // Parade Dress Uniform
 class U_I_ParadeUniform_01_AAF_F;
 class U_I_ParadeUniform_01_EUDF: U_I_ParadeUniform_01_AAF_F
@@ -403,7 +443,7 @@ class U_I_ParadeUniform_01_EUDF_decorated: U_I_ParadeUniform_01_EUDF
 
 // Wetsuit
 class U_I_Wetsuit;
-class U_I_Wetsuit_EUDF35: U_I_Wetsuit
+class U_I_EUDF35_Wetsuit: U_I_Wetsuit
 {
     author="kenoxite";
     scope=2;

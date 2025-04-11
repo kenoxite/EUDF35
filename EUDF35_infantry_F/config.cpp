@@ -769,7 +769,9 @@ class CfgPatches
             "Item_I_ParadeUniform_01_EUDF",
             "Item_I_ParadeUniform_01_EUDF_decorated",
 
-            "Item_I_Wetsuit_EUDF35",
+            "Item_I_EUDF35_Wetsuit",
+            "Item_I_EUDF35_FullGhillieSuit_Woodland",
+            "Item_I_EUDF35_pilotCoveralls",
 
             "Vest_V_CarrierRigKBT_01_vest_EUDF35_Woodland",
             "Vest_V_CarrierRigKBT_01_EUDF35_Woodland",
@@ -956,7 +958,9 @@ class CfgPatches
             "U_I_ParadeUniform_01_EUDF",
             "U_I_ParadeUniform_01_EUDF_decorated",
 
-            "U_I_Wetsuit_EUDF35",
+            "U_I_EUDF35_Wetsuit",
+            "U_I_EUDF35_FullGhillieSuit_Woodland",
+            "U_I_EUDF35_pilotCoveralls",
 
             "H_HelmetB_camo_EUDF35_woodland",
             "H_HelmetCrew_EUDF35_woodland",

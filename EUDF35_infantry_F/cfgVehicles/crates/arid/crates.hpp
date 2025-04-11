@@ -161,12 +161,12 @@
             item_xx(U_I_CombatUniform_EUDF35_Arid_Tanktop,15);
             item_xx(U_I_CombatUniform_EUDF35_Arid_Shortsleeve,15);
             item_xx(U_I_EUDF35_HeliPilotCoveralls_Arid,15);
-            item_xx(U_I_pilotCoveralls,15);
+            item_xx(U_I_EUDF35_pilotCoveralls,15);
             item_xx(U_I_EUDF35_OfficerUniform_Arid,15);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Arid_Shortsleeve,15);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Arid_Tanktop,15);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Arid,15);
-            item_xx(U_I_Wetsuit_EUDF35,15);
+            item_xx(U_I_EUDF35_Wetsuit,15);
         };
     };
     class IND_EUDF35_D_F_SupportBox : Box_NATO_Support_F {
@@ -388,11 +388,11 @@
             item_xx(U_I_CombatUniform_EUDF35_Arid_Tanktop,10);
             item_xx(U_I_CombatUniform_EUDF35_Arid_Shortsleeve,10);
             item_xx(U_I_EUDF35_HeliPilotCoveralls_Arid,10);
-            item_xx(U_I_pilotCoveralls,10);
+            item_xx(U_I_EUDF35_pilotCoveralls,10);
             item_xx(U_I_EUDF35_OfficerUniform_Arid,10);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Arid_Shortsleeve,10);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Arid_Tanktop,10);
             item_xx(U_I_CombatUniform_Recon_EUDF35_Arid,10);
-            item_xx(U_I_Wetsuit_EUDF35,10);
+            item_xx(U_I_EUDF35_Wetsuit,10);
         };
     };

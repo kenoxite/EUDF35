@@ -208,6 +208,23 @@ class Item_I_EUDF35_HeliPilotCoveralls_Arid: Item_I_CombatUniform_EUDF35_Woodlan
     };
 };
 
+// Pilot Coveralls [EUDF]
+class Item_I_EUDF35_pilotCoveralls: Item_I_CombatUniform_EUDF35_Woodland
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    displayName="Pilot Coveralls [EUDF]";
+    class TransportItems
+    {
+        class Item_Uniform_X
+        {
+            name="U_I_EUDF35_pilotCoveralls";
+            count=1;
+        };
+    };
+};
+
 // Recon Fatigues (EuroAlpine)
 class Item_I_EUDF35_Gorka_Woodland: Item_I_CombatUniform_EUDF35_Woodland
 {
@@ -276,6 +293,23 @@ class Item_I_EUDF35_GhillieSuit_Woodland_1: Item_I_CombatUniform_EUDF35_Woodland
     };
 };
 
+// Full Ghillie (Lush) [EUDF]
+class Item_I_EUDF35_FullGhillieSuit_Woodland: Item_I_CombatUniform_EUDF35_Woodland
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    displayName="Full Ghillie (Lush) [EUDF]";
+    class TransportItems
+    {
+        class Item_Uniform_X
+        {
+            name="U_I_EUDF35_FullGhillieSuit_Woodland";
+            count=1;
+        };
+    };
+};
+
 // Parade Uniform [EUDF]
 class Item_I_ParadeUniform_01_EUDF: Item_I_CombatUniform_EUDF35_Woodland
 {
@@ -309,7 +343,7 @@ class Item_I_ParadeUniform_01_EUDF_decorated: Item_I_CombatUniform_EUDF35_Woodla
 };
 
 // Wetsuit [EUDF]
-class Item_I_Wetsuit_EUDF35: Item_I_CombatUniform_EUDF35_Woodland
+class Item_I_EUDF35_Wetsuit: Item_I_CombatUniform_EUDF35_Woodland
 {
     author="kenoxite";
     scope=2;
@@ -319,7 +353,7 @@ class Item_I_Wetsuit_EUDF35: Item_I_CombatUniform_EUDF35_Woodland
     {
         class Item_Uniform_X
         {
-            name="U_I_Wetsuit_EUDF35";
+            name="U_I_EUDF35_Wetsuit";
             count=1;
         };
     };

@@ -436,6 +436,19 @@ class I_EUDF35_Officer_arid_UnifBase : I_EUDF35_Rifleman_Arid_Base_F {
     };
 };
 
+// Pilot Coveralls
+class I_EUDF35_PilotCoveralls_UnifBase : I_EUDF35_Rifleman_Base_F {
+    author = "kenoxite";
+    scope = 1;
+    scopeCurator = 1;
+    model = "\A3\characters_F\Common\pilot_f.p3d";
+    
+    uniformClass = "U_I_EUDF35_pilotCoveralls";
+    hiddenSelections[] = {"Camo","insignia"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\pilot_suit_rus_co.paa"};
+};
+
+
 // RECON
 // -----
 class I_EUDF35_Recon_Base_F: I_EUDF35_Rifleman_Base_F
@@ -886,6 +899,22 @@ class I_EUDF35_Sniper_woodland_1_UnifBase : I_EUDF35_Sniper_woodland_UnifBase {
     };
 };
 
+class I_EUDF35_Sniper_full_woodland_UnifBase : I_EUDF35_Sniper_woodland_UnifBase {
+    author = "kenoxite";
+    scope = 1;
+    scopeCurator = 1;
+    model = "\A3\Characters_F_Mark\INDEP\i_fullghillie_f.p3d";
+    DLC = "Mark";
+    
+    uniformClass = "U_I_EUDF35_FullGhillieSuit_Woodland";
+    hiddenSelections[] = {"camo","camo3","camo4"};
+    hiddenSelectionsTextures[] = {
+        "\A3\Characters_F_Mark\INDEP\Data\ghillie_coverall_aaf_co.paa",
+        "\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_ca.paa",
+        "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_co.paa"
+    };
+};
+
 // DIVERS
 // ------
 class I_Soldier_diver_base_F;
@@ -899,7 +928,7 @@ class I_EUDF35_Diver_Base_F: I_Soldier_diver_base_F
     model = "\A3\characters_F\Common\diver_slotable";
     modelSides[]={0,1,2,3};
 
-    uniformClass = "U_I_Wetsuit_EUDF35";
+    uniformClass = "U_I_EUDF35_Wetsuit";
     hiddenSelections[] = {"Camo1","Camo2","insignia"};
     hiddenSelectionsTextures[] = {
         "\A3\Characters_F\Common\Data\diver_suit_rus_co.paa",
