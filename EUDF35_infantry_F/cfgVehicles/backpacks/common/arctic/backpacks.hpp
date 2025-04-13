@@ -395,6 +395,20 @@ class B_AssaultPack_ReconAmmo_EUDF35_arctic: B_AssaultPack_EUDF35_arctic
     };
 };
 
+class B_AssaultPack_ReconAmmoLight_EUDF35_arctic: B_AssaultPack_EUDF35_arctic
+{
+    scope = 1;
+    class TransportMagazines
+    {
+        mag_xx(20Rnd_762x51_Mag,4);
+        mag_xx(SmokeShell,2);
+    };
+    class TransportItems
+    {
+        item_xx(FirstAidKit,2);
+    };
+};
+
 class B_AssaultPack_ReconAR_EUDF35_arctic: B_AssaultPack_EUDF35_arctic
 {
     scope = 1;
@@ -405,6 +419,21 @@ class B_AssaultPack_ReconAR_EUDF35_arctic: B_AssaultPack_EUDF35_arctic
     class TransportItems
     {
         item_xx(FirstAidKit,1);
+    };
+};
+
+class B_AssaultPack_ReconAmmoBreach_EUDF35_arctic: B_AssaultPack_EUDF35_arctic
+{
+    scope = 1;
+    class TransportMagazines
+    {
+        mag_xx(30Rnd_65x39_caseless_msbs_mag,3);
+        mag_xx(6Rnd_12Gauge_Pellets,2);
+        mag_xx(DemoCharge_Remote_Mag,1);
+    };
+    class TransportItems
+    {
+        item_xx(FirstAidKit,2);
     };
 };
 

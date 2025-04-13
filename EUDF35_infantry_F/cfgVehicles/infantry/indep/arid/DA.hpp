@@ -293,7 +293,7 @@ class I_EUDF35_D_DA_M_F : I_EUDF35_D_DA_Base_F {
         "Put"
         };
 
-    backpack="B_AssaultPack_ReconAmmo_EUDF35_arid_1";
+    backpack="B_AssaultPack_ReconAmmoLight_EUDF35_arid_1";
 
     magazines[] = {
         mag_10(20Rnd_762x51_Mag),
@@ -519,7 +519,7 @@ class I_EUDF35_D_DA_Sharpshooter_F : I_EUDF35_D_DA_M_F {
         "Put"
         };
 
-    backpack="B_AssaultPack_ReconAmmo_EUDF35_arid_1";
+    backpack="B_AssaultPack_ReconAmmoLight_EUDF35_arid_1";
 
     magazines[] = {
         mag_5(20Rnd_762x51_Mag),
@@ -564,7 +564,7 @@ class I_EUDF35_D_DA_Breacher_F : I_EUDF35_D_DA_F {
         "Put"
         };
 
-    backpack="B_AssaultPack_ReconAmmo_EUDF35_arid_1";
+    backpack="B_AssaultPack_ReconAmmoBreach_EUDF35_arid_1";
 
     magazines[] = {
         mag_8(30Rnd_65x39_caseless_msbs_mag),
