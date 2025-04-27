@@ -1,4 +1,4 @@
-#define VERSION "1.2.1"
+#define VERSION "1.2.2"
 
 class CfgPatches
 {
@@ -15,7 +15,8 @@ class CfgPatches
             "EUDF35_CDLC_WS_data_F",
             "EUDF35_infantry_F",
             "EUDF35_groups_F",
-            "Vehicles_F_lxWS_APC_Wheeled_01"
+            "Vehicles_F_lxWS_APC_Wheeled_01",
+            "Vehicles_F_lxWS_Truck_02"
         };
         units[]={
             "I_EUDF35_APC_Wheeled_01_atgm_lxWS",
@@ -54,7 +55,25 @@ class CfgPatches
             
             "O_EUDF35_D_APC_Wheeled_01_atgm_lxWS",
             "O_EUDF35_D_APC_Wheeled_01_mortar_lxWS",
-            "O_EUDF35_D_APC_Wheeled_01_command_lxWS"
+            "O_EUDF35_D_APC_Wheeled_01_command_lxWS",
+
+            "B_EUDF35_Truck_02_flatbed_lxWS",
+            "B_EUDF35_Truck_02_cargo_lxWS",
+
+            "B_EUDF35_A_Truck_02_flatbed_lxWS",
+            "B_EUDF35_A_Truck_02_cargo_lxWS",
+
+            "B_EUDF35_D_Truck_02_flatbed_lxWS",
+            "B_EUDF35_D_Truck_02_cargo_lxWS",
+
+            "O_EUDF35_Truck_02_flatbed_lxWS",
+            "O_EUDF35_Truck_02_cargo_lxWS",
+
+            "O_EUDF35_A_Truck_02_flatbed_lxWS",
+            "O_EUDF35_A_Truck_02_cargo_lxWS",
+
+            "O_EUDF35_D_Truck_02_flatbed_lxWS",
+            "O_EUDF35_D_Truck_02_cargo_lxWS"
         };
         weapons[]={};
         
@@ -83,6 +102,18 @@ class cfgVehicles
     #include "opfor\woodland\apcs.hpp"
     #include "opfor\arctic\apcs.hpp"
     #include "opfor\arid\apcs.hpp"
+
+    #include "indep\woodland\cars.hpp"
+    #include "indep\arctic\cars.hpp"
+    #include "indep\arid\cars.hpp"
+
+    #include "blufor\woodland\cars.hpp"
+    #include "blufor\arctic\cars.hpp"
+    #include "blufor\arid\cars.hpp"
+
+    #include "opfor\woodland\cars.hpp"
+    #include "opfor\arctic\cars.hpp"
+    #include "opfor\arid\cars.hpp"
 };
 
 class CfgGroups
