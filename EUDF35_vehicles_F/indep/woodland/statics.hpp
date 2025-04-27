@@ -221,10 +221,9 @@ class I_EUDF35_static_AT_F : I_static_AT_F {
         "camo_launcher",
         "camo_tube"
     };
-    hiddenSelectionsTextures[]=
-    {
-        "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
-        "\EUDF35_vehicles_data_F\data\turrets\tubel_EUDF35_woodland_co.paa"
+    hiddenSelectionsTextures[] = {
+        "\a3\weapons_f_exp\launchers\titan\data\launch_B_Titan_tna_F_01_co.paa",
+        "\a3\weapons_f_exp\launchers\titan\data\launch_b_titan_short_tna_f_02_co.paa"
     };
 
     textureList[]=
@@ -267,8 +266,8 @@ class I_EUDF35_static_AT_F : I_static_AT_F {
             };
             textures[]=
             {
-                "\a3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
-                "\a3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
+                "\a3\weapons_f_exp\launchers\titan\data\launch_B_Titan_tna_F_01_co.paa",
+                "\a3\weapons_f_exp\launchers\titan\data\launch_b_titan_short_tna_f_02_co.paa"
             };
         };
         class EUDF35_DES

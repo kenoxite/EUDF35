@@ -75,8 +75,8 @@ class I_EUDF35_A_static_AT_F : I_EUDF35_static_AT_F {
 
     hiddenSelectionsTextures[]=
     {
-        "\a3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
-        "\a3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
+        "\a3\weapons_f_exp\launchers\titan\data\launch_B_Titan_tna_F_01_co.paa",
+        "\a3\weapons_f_exp\launchers\titan\data\launch_b_titan_short_tna_f_02_co.paa"
     };
 
     textureList[]=
