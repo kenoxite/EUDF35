@@ -1064,6 +1064,41 @@ class IND_EUDF35_F
                 position[]={-5,-5,0};
             };
         };
+        class I_EUDF35_Support_EW
+        {
+            name="Electronic Warfare Team";
+            side=2;
+            faction="IND_EUDF35_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_EUDF35_soldier_TL_F";
+                rank="SERGEANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_EUDF35_soldier_EW_F";
+                rank="CORPORAL";
+                position[]={5,-5,0};
+            };
+            class Unit2
+            {
+                side=2;
+                vehicle="I_EUDF35_soldier_EW_F";
+                rank="PRIVATE";
+                position[]={-5,-5,0};
+            };
+            class Unit3
+            {
+                side=2;
+                vehicle="I_EUDF35_soldier_LAT_F";
+                rank="PRIVATE";
+                position[]={10,-5,0};
+            };
+        };
     };
 
     class Motorized
