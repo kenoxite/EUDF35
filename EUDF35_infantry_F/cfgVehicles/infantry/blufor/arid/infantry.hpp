@@ -382,3 +382,32 @@ class B_EUDF35_D_Soldier_MP_F : I_EUDF35_D_Soldier_MP_F {
     faction = "BLU_EUDF35_D_F";
     side = 1;
 };
+
+// Electronic Warfare (EW) Specialist
+class B_EUDF35_D_soldier_EW_F : I_EUDF35_D_soldier_EW_F {
+    faction = "BLU_EUDF35_D_F";
+    side = 1;
+
+    linkedItems[] = 
+    {
+        "V_CarrierRigKBT_01_EUDF35_arid",
+        "H_HelmetB_light_EUDF35_arid",
+        "ItemMap",
+        "ItemRadio",
+        "B_UavTerminal",
+        "ItemCompass",
+        "ItemWatch",
+        "NVGoggles"
+    };
+    respawnlinkedItems[] = 
+    {
+        "V_CarrierRigKBT_01_EUDF35_arid",
+        "H_HelmetB_light_EUDF35_arid",
+        "ItemMap",
+        "ItemRadio",
+        "B_UavTerminal",
+        "ItemCompass",
+        "ItemWatch",
+        "NVGoggles"
+    };
+};

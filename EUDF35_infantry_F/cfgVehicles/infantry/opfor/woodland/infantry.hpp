@@ -154,7 +154,7 @@ class O_EUDF35_Soldier_UAV_F : I_EUDF35_Soldier_UAV_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -165,7 +165,7 @@ class O_EUDF35_Soldier_UAV_F : I_EUDF35_Soldier_UAV_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -184,7 +184,7 @@ class O_EUDF35_soldier_UAV_06_F : I_EUDF35_soldier_UAV_06_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -195,7 +195,7 @@ class O_EUDF35_soldier_UAV_06_F : I_EUDF35_soldier_UAV_06_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -214,7 +214,7 @@ class O_EUDF35_soldier_UAV_06_medical_F : I_EUDF35_soldier_UAV_06_medical_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -225,7 +225,7 @@ class O_EUDF35_soldier_UAV_06_medical_F : I_EUDF35_soldier_UAV_06_medical_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -286,7 +286,7 @@ class O_EUDF35_support_AHMG_F : I_EUDF35_support_AHMG_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -297,7 +297,7 @@ class O_EUDF35_support_AHMG_F : I_EUDF35_support_AHMG_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -316,7 +316,7 @@ class O_EUDF35_support_AGMG_F : I_EUDF35_support_AGMG_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -327,7 +327,7 @@ class O_EUDF35_support_AGMG_F : I_EUDF35_support_AGMG_F {
         "H_HelmetB_camo_EUDF35_woodland",
         "ItemMap",
         "ItemRadio",
-        "B_UavTerminal",
+        "O_UavTerminal",
         "ItemCompass",
         "ItemWatch",
         "NVGoggles_INDEP"
@@ -394,4 +394,33 @@ class O_EUDF35_Officer_Parade_Veteran_F: I_EUDF35_Officer_Parade_Veteran_F
 class O_EUDF35_Soldier_MP_F : I_EUDF35_Soldier_MP_F {
     faction = "OPF_EUDF35_F";
     side = 0;
+};
+
+// Electronic Warfare (EW) Specialist
+class O_EUDF35_soldier_EW_F : I_EUDF35_soldier_EW_F {
+    faction = "OPF_EUDF35_F";
+    side = 0;
+
+    linkedItems[] = 
+    {
+        "V_CarrierRigKBT_01_EUDF35_Woodland",
+        "H_HelmetB_camo_EUDF35_woodland",
+        "ItemMap",
+        "ItemRadio",
+        "O_UavTerminal",
+        "ItemCompass",
+        "ItemWatch",
+        "NVGoggles_INDEP"
+    };
+    respawnlinkedItems[] = 
+    {
+        "V_CarrierRigKBT_01_EUDF35_Woodland",
+        "H_HelmetB_camo_EUDF35_woodland",
+        "ItemMap",
+        "ItemRadio",
+        "O_UavTerminal",
+        "ItemCompass",
+        "ItemWatch",
+        "NVGoggles_INDEP"
+    };
 };

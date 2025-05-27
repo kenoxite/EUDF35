@@ -1,4 +1,4 @@
-#define VERSION "1.2.3"
+#define VERSION "1.3"
 
 #include "basicDefines.hpp"
 
@@ -68,6 +68,7 @@ class CfgPatches
             "I_EUDF35_Sharpshooter_F",
             "I_EUDF35_Soldier_AMG_F",
             "I_EUDF35_Soldier_ExpAT_F",
+            "I_EUDF35_soldier_EW_F",
 
             "I_EUDF35_Recon_F",
             "I_EUDF35_Recon_LAT_F",
@@ -147,6 +148,7 @@ class CfgPatches
             "I_EUDF35_A_Sharpshooter_F",
             "I_EUDF35_A_Soldier_AMG_F",
             "I_EUDF35_A_Soldier_ExpAT_F",
+            "I_EUDF35_A_soldier_EW_F",
 
             "I_EUDF35_A_Recon_F",
             "I_EUDF35_A_Recon_LAT_F",
@@ -225,6 +227,7 @@ class CfgPatches
             "I_EUDF35_D_Sharpshooter_F",
             "I_EUDF35_D_Soldier_AMG_F",
             "I_EUDF35_D_Soldier_ExpAT_F",
+            "I_EUDF35_D_soldier_EW_F",
 
             "I_EUDF35_D_Recon_F",
             "I_EUDF35_D_Recon_LAT_F",
@@ -308,6 +311,7 @@ class CfgPatches
             "B_EUDF35_Sharpshooter_F",
             "B_EUDF35_Soldier_AMG_F",
             "B_EUDF35_Soldier_ExpAT_F",
+            "B_EUDF35_soldier_EW_F",
 
             "B_EUDF35_Recon_F",
             "B_EUDF35_Recon_LAT_F",
@@ -387,6 +391,7 @@ class CfgPatches
             "B_EUDF35_A_Sharpshooter_F",
             "B_EUDF35_A_Soldier_AMG_F",
             "B_EUDF35_A_Soldier_ExpAT_F",
+            "B_EUDF35_A_soldier_EW_F",
 
             "B_EUDF35_A_Recon_F",
             "B_EUDF35_A_Recon_LAT_F",
@@ -465,6 +470,7 @@ class CfgPatches
             "B_EUDF35_D_Sharpshooter_F",
             "B_EUDF35_D_Soldier_AMG_F",
             "B_EUDF35_D_Soldier_ExpAT_F",
+            "B_EUDF35_D_soldier_EW_F",
 
             "B_EUDF35_D_Recon_F",
             "B_EUDF35_D_Recon_LAT_F",
@@ -548,6 +554,7 @@ class CfgPatches
             "O_EUDF35_Sharpshooter_F",
             "O_EUDF35_Soldier_AMG_F",
             "O_EUDF35_Soldier_ExpAT_F",
+            "O_EUDF35_soldier_EW_F",
 
             "O_EUDF35_Recon_F",
             "O_EUDF35_Recon_LAT_F",
@@ -627,6 +634,7 @@ class CfgPatches
             "O_EUDF35_A_Sharpshooter_F",
             "O_EUDF35_A_Soldier_AMG_F",
             "O_EUDF35_A_Soldier_ExpAT_F",
+            "O_EUDF35_A_soldier_EW_F",
 
             "O_EUDF35_A_Recon_F",
             "O_EUDF35_A_Recon_LAT_F",
@@ -705,6 +713,7 @@ class CfgPatches
             "O_EUDF35_D_Sharpshooter_F",
             "O_EUDF35_D_Soldier_AMG_F",
             "O_EUDF35_D_Soldier_ExpAT_F",
+            "0_EUDF35_D_soldier_EW_F",
 
             "O_EUDF35_D_Recon_F",
             "O_EUDF35_D_Recon_LAT_F",

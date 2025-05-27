@@ -2034,3 +2034,29 @@ class I_EUDF35_D_Soldier_MP_F : I_EUDF35_D_Soldier_lite_F {
         mag_2(Chemlight_blue)
         };
 };
+
+// Electronic Warfare (EW) Specialist
+class I_EUDF35_D_soldier_EW_F : I_EUDF35_D_Soldier_UAV_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    editorPreview = "\EUDF35_core_F\data\previews\I_EUDF35_D_Soldier_F.jpg";
+    displayName="Electronic Warfare Specialist";
+
+    uniformClass = "U_I_CombatUniform_EUDF35_arid";
+
+    backpack = "";
+
+    weapons[] = {
+        "arifle_MSBS65_EUDF35_arid_aco_pointer_snds_F",
+        "hgun_esd_01_antenna_03_F",
+        "Throw",
+        "Put"
+        };
+    respawnWeapons[] = {
+        "arifle_MSBS65_EUDF35_arid_aco_pointer_snds_F",
+        "hgun_esd_01_antenna_03_F",
+        "Throw",
+        "Put"
+        };
+};
