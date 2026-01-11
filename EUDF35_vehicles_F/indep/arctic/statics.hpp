@@ -195,3 +195,14 @@ class I_EUDF35_A_SAM_System_03_F: I_EUDF35_SAM_System_03_F
         0
     };
 };
+
+// MK6 Mortar
+class I_EUDF35_A_Mk6_Mortar_F : I_EUDF35_Mk6_Mortar_F {    
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    side = 2;
+    faction = "IND_EUDF35_A_F";
+    // editorPreview = "\EUDF35_core_F\data\previews\I_EUDF35_A_Mk6_Mortar_F.jpg";
+    crew = "I_EUDF35_A_Soldier_F";
+};

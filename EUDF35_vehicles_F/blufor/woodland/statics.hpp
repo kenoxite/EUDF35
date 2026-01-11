@@ -88,3 +88,10 @@ class B_EUDF35_SAM_System_03_F: I_EUDF35_SAM_System_03_F
     faction = "BLU_EUDF35_F";
     crew = "B_UAV_AI";
 };
+
+// MK6 Mortar
+class B_EUDF35_Mk6_Mortar_F : I_EUDF35_Mk6_Mortar_F {
+    side = 1;
+    faction = "BLU_EUDF35_F";
+    crew = "B_EUDF35_Soldier_F";
+};

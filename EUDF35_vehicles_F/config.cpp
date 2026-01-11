@@ -1,4 +1,4 @@
-#define VERSION "1.2.1"
+#define VERSION "1.2.2"
 
 #include "basicDefines.hpp"
 
@@ -121,6 +121,7 @@ class CfgPatches
             "I_EUDF35_UAV_06_F",
             "I_EUDF35_UAV_06_medical_F",
             "I_EUDF35_UAV_02_dynamicLoadout_F",
+            "I_EUDF35_Mk6_Mortar_F",
 
             "I_EUDF35_A_Quad_Bike_F",
             "I_EUDF35_A_Strider_F",
@@ -164,6 +165,7 @@ class CfgPatches
             "I_EUDF35_A_UAV_06_F",
             "I_EUDF35_A_UAV_06_medical_F",
             "I_EUDF35_A_UAV_02_dynamicLoadout_F",
+            "I_EUDF35_A_Mk6_Mortar_F",
 
             "I_EUDF35_D_Quad_Bike_F",
             "I_EUDF35_D_Strider_F",
@@ -207,6 +209,7 @@ class CfgPatches
             "I_EUDF35_D_UAV_06_F",
             "I_EUDF35_D_UAV_06_medical_F",
             "I_EUDF35_D_UAV_02_dynamicLoadout_F",
+            "I_EUDF35_D_Mk6_Mortar_F",
 
 
             "B_EUDF35_Quad_Bike_F",
@@ -251,6 +254,7 @@ class CfgPatches
             "B_EUDF35_UAV_06_F",
             "B_EUDF35_UAV_06_medical_F",
             "B_EUDF35_UAV_02_dynamicLoadout_F",
+            "B_EUDF35_Mk6_Mortar_F",
 
             "B_EUDF35_A_Quad_Bike_F",
             "B_EUDF35_A_Strider_F",
@@ -294,6 +298,7 @@ class CfgPatches
             "B_EUDF35_A_UAV_06_F",
             "B_EUDF35_A_UAV_06_medical_F",
             "B_EUDF35_A_UAV_02_dynamicLoadout_F",
+            "B_EUDF35_A_Mk6_Mortar_F",
 
             "B_EUDF35_D_Quad_Bike_F",
             "B_EUDF35_D_Strider_F",
@@ -337,6 +342,7 @@ class CfgPatches
             "B_EUDF35_D_UAV_06_F",
             "B_EUDF35_D_UAV_06_medical_F",
             "B_EUDF35_D_UAV_02_dynamicLoadout_F",
+            "B_EUDF35_D_Mk6_Mortar_F",
             
             "O_EUDF35_Quad_Bike_F",
             "O_EUDF35_Strider_F",
@@ -380,6 +386,7 @@ class CfgPatches
             "O_EUDF35_UAV_06_F",
             "O_EUDF35_UAV_06_medical_F",
             "O_EUDF35_UAV_02_dynamicLoadout_F",
+            "O_EUDF35_Mk6_Mortar_F",
 
             "O_EUDF35_A_Quad_Bike_F",
             "O_EUDF35_A_Strider_F",
@@ -423,6 +430,7 @@ class CfgPatches
             "O_EUDF35_A_UAV_06_F",
             "O_EUDF35_A_UAV_06_medical_F",
             "O_EUDF35_A_UAV_02_dynamicLoadout_F",
+            "O_EUDF35_A_Mk6_Mortar_F",
 
             "O_EUDF35_D_Quad_Bike_F",
             "O_EUDF35_D_Strider_F",
@@ -465,7 +473,8 @@ class CfgPatches
             "O_EUDF35_D_UGV_01_rcws_F",
             "O_EUDF35_D_UAV_06_F",
             "O_EUDF35_D_UAV_06_medical_F",
-            "O_EUDF35_D_UAV_02_dynamicLoadout_F"
+            "O_EUDF35_D_UAV_02_dynamicLoadout_F",
+            "O_EUDF35_D_Mk6_Mortar_F"
         };
         weapons[]={};
         
