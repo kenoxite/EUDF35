@@ -133,6 +133,31 @@ class I_EUDF35_D_UGV_01_F : I_EUDF35_UGV_01_F {
         "EUDF35_DES",
         1
     };
+    
+    class TransportBackpacks
+    {
+        bag_xx(B_TacticalPack_EUDF35_arid,1);
+    };
+    class TransportItems
+    {
+        item_xx(FirstAidKit,5);
+        item_xx(Medikit,1);
+        item_xx(ToolKit,1);
+    };
+    class TransportMagazines
+    {
+        mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
+        mag_xx(200Rnd_65x39_cased_Box,2);
+        mag_xx(HandGrenade,5);
+        mag_xx(SmokeShell,3);
+        mag_xx(1Rnd_HE_Grenade_shell,10);
+        mag_xx(16Rnd_9x21_Mag,6);
+        mag_xx(MRAWS_HEAT_F,2);
+    };
+    class TransportWeapons
+    {
+        weap_xx(arifle_MSBS65_EUDF35_arid_aco_pointer_F,1);
+    };
 };
 
 
